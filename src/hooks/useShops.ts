@@ -1,6 +1,6 @@
 import { useQuery, useMutation, useQueryClient } from '@tanstack/react-query';
 import { shopsAPI } from '../services/shops';
-import { Shop, ShopInput } from '../types/shop';
+import { ShopInput } from '../types/shop';
 
 export const useShops = () => {
   return useQuery({

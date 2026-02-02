@@ -40,7 +40,6 @@ export const MenuForm: React.FC<MenuFormProps> = ({
   const {
     register,
     handleSubmit,
-    control,
     setValue,
     watch,
     formState: { errors },

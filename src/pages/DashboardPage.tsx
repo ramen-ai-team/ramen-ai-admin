@@ -1,5 +1,5 @@
 import React from "react";
-import { Store, UtensilsCrossed, Users } from "lucide-react";
+import { Store, UtensilsCrossed } from "lucide-react";
 import { useShops } from "../hooks/useShops";
 import { useMenus } from "../hooks/useMenus";
 import { Layout } from "../components/layout/Layout";
