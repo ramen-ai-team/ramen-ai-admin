@@ -1,11 +1,12 @@
 import React from 'react';
 import { Link, useLocation } from 'react-router-dom';
-import { Store, UtensilsCrossed, Home, Tag, Soup, WheatIcon } from 'lucide-react';
+import { Store, UtensilsCrossed, Home, Tag, Soup, WheatIcon, Users } from 'lucide-react';
 
 const navigation = [
   { name: 'ダッシュボード', href: '/', icon: Home },
   { name: '店舗管理', href: '/shops', icon: Store },
   { name: 'メニュー管理', href: '/menus', icon: UtensilsCrossed },
+  { name: 'ユーザー管理', href: '/users', icon: Users },
 ];
 
 const masterDataNavigation = [

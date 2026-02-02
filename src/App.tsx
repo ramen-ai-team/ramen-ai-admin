@@ -10,6 +10,7 @@ import { MenusPage } from './pages/menus/MenusPage';
 import { GenresPage } from './pages/master/GenresPage';
 import { SoupsPage } from './pages/master/SoupsPage';
 import { NoodlesPage } from './pages/master/NoodlesPage';
+import { UsersPage } from './pages/users/UsersPage';
 
 const queryClient = new QueryClient({
   defaultOptions: {
@@ -88,6 +89,14 @@ const AppRoutes: React.FC = () => {
         element={
           <ProtectedRoute>
             <NoodlesPage />
+          </ProtectedRoute>
+        }
+      />
+      <Route
+        path="/users"
+        element={
+          <ProtectedRoute>
+            <UsersPage />
           </ProtectedRoute>
         }
       />
